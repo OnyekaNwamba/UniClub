@@ -52,7 +52,7 @@ In the socialmobileapp directory:
        4. The on-screen instructions will outline how to populate the above code with the correct credentials
 
 ### AWS Credentials
-- AWS credentials in the front-end security, this is needed for S3 uploads to store profile pictures. 
+- AWS credentials in the front-end were removed for security, credentials are needed for S3 uploads to store profile pictures. 
 - You will need to provide your own credentials to test the application:
   1. Create an AWS Account [here](https://portal.aws.amazon.com/billing/signup#/start/email)
   2. Follow this guide to get your AWS access key ID and secret access ID: https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html
