@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="activity.DeleteUserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-03T14:53:58" hostname="Onyekas-MacBook-Pro.local" time="2.55">
+  <properties/>
+  <testcase name="givenUserId_whenDeleteUser_shouldDeleteUser" classname="activity.DeleteUserTest" time="2.55"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[May 03, 2022 3:54:00 PM com.amazonaws.util.Base64 warn
+WARNING: JAXB is unavailable. Will fallback to SDK implementation which may be less performant.If you are using Java 9+, you will need to include javax.xml.bind:jaxb-api as a dependency.
+]]></system-err>
+</testsuite>

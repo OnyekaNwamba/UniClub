@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: activity.GetMatches
+      CodeUri: s3://socialapp-source-bucket/a70031907dd1ad4bf0671ad396a9e70e
+      Runtime: java11

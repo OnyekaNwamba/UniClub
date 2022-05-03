@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 512
+      Handler: activity.GetSwipe
+      CodeUri: /Users/onyeka/Documents/socialapp/socialappservice/lambdas/GetSwipeLambda/GetSwipeFunction
+      Runtime: java11

@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: activity.GetSwipe
+      CodeUri: s3://socialapp-source-bucket/91624e377d7926a0347fb55718f92d63
+      Runtime: java11

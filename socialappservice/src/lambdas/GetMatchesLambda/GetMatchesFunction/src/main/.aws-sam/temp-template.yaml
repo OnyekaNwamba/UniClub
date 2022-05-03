@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 512
+      Handler: activity.GetMatches
+      CodeUri: /Users/onyeka/Documents/socialapp/socialappservice/lambdas/GetMatchesLambda/GetMatchesFunction
+      Runtime: java11

@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'PutSwipeLambda
+
+  Put user swipe
+
+  '
+Globals:
+  Function:
+    Timeout: 20
+Resources:
+  PutSwipeFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: PutSwipeFunction
+      Handler: activity.PutSwipe::handleRequest
+      Runtime: java11
+      MemorySize: 512
+      Environment:
+        Variables:
+          PARAM1: VALUE
+      Events:
+        HelloWorld:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: get

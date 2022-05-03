@@ -1,0 +1,26 @@
+package lambdas.PutMatchLambda.out.production.GetSwipeLambda
+
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //AWS
+    implementation 'com.amazonaws:aws-lambda-java-core:1.2.1'
+    implementation 'com.amazonaws:aws-lambda-java-events:3.10.0'
+    implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.12.62'
+
+    //JsonSerializer
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.0.1'
+
+    //Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.8'
+
+    //Testing
+    testImplementation 'junit:junit:4.13.2'
+}

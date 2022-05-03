@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/DeleteUserLambda/DeleteUserFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/GetFriendRequestLambda/GetFriendRequestFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/GetMatchesLambda/GetMatchesFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/GetSwipeLambda/GetSwipeFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/GetUserByIdLambda/GetUserByIdFunction/src" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/GetUserLambda/GetUserFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/GetUserProfileLambda/GetUserProfileFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/GetUserProfilesByUniversityLambda/GetUserProfilesByUniversityFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/PutMatchLambda/PutMatchFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/PutSwipeLambda/PutSwipeFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/PutUserLambda/PutUserFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/PutUserProfileLambda/PutUserProfileFunction" />
+    <file type="web" url="file://$PROJECT_DIR$/src/lambdas/SendFriendRequestLambda/SendFriendRequestFunction" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: activity.GetUserProfile
+      CodeUri: s3://socialapp-source-bucket/2862c61ab1818e657aa8e48e30c76a2a
+      Runtime: java11

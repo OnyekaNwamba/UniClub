@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 576
+      Handler: activity.App
+      CodeUri: /Users/onyeka/Documents/socialapp/socialappservice/lambdas/PutUserLambda/PutUserFunction
+      Runtime: java11

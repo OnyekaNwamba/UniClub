@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: activity.DeleteUser
+      CodeUri: s3://socialapp-source-bucket/d0faeefcfadd3d85cf8e7bcdac9f5e66
+      Runtime: java11

@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 512
+      MemorySize: 512
+      Handler: activity.DeleteUser
+      CodeUri: /Users/onyeka/Documents/socialapp/socialappservice/src/lambdas/DeleteUserLambda/DeleteUserFunction
+      Runtime: java11

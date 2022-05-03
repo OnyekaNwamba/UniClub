@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/HelloWorldFunction/build.gradle" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/DeleteUserLambda/DeleteUserFunction" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/DeleteUserLambda/DeleteUserFunction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/GetMatchesLambda/GetMatchesFunction" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/GetMatchesLambda/GetMatchesFunction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/GetSwipeLambda/GetSwipeFunction" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/GetSwipeLambda/GetSwipeFunction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/GetUserByIdLambda/GetUserByIdFunction/src" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/GetUserByIdLambda/GetUserByIdFunction/src" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/GetUserLambda/GetUserFunction" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/GetUserLambda/GetUserFunction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/GetUserProfileLambda/GetUserProfileFunction" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/GetUserProfileLambda/GetUserProfileFunction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/GetUserProfilesByUniversityLambda/GetUserProfilesByUniversityFunction" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/GetUserProfilesByUniversityLambda/GetUserProfilesByUniversityFunction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/PutMatchLambda/PutMatchFunction" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/PutMatchLambda/PutMatchFunction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/PutSwipeLambda/PutSwipeFunction" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/PutSwipeLambda/PutSwipeFunction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/PutUserLambda/PutUserFunction" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/PutUserLambda/PutUserFunction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/lambdas/PutUserProfileLambda/PutUserProfileFunction" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/lambdas/PutUserProfileLambda/PutUserProfileFunction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
